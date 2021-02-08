@@ -1,0 +1,21 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Denis Litvinov",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.574",
+    "sass": "^1.32.6"
+  },
+  "dependencies": {
+    "fractional": "^1.0.0",
+    "regeneration-runtime": "^0.13.7",
+    "core-js": "^3.6.5"
+  }
+}
